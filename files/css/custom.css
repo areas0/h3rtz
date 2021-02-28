@@ -10,7 +10,7 @@ body2{
 }
 
 body1{
-    background: linear-gradient(#2E64FE, #F781BE);
+    background: linear-gradient(#ECC497, #796A8B);
 }
 body{
     background-color: #2E2E2E;
@@ -21,13 +21,13 @@ hr{
 .top{
     padding: 4rem 2rem;
 }
-.bartendu{
-    background: -webkit-linear-gradient(#2E64FE, #F781BE);
+.linear{
+    background: -webkit-linear-gradient(#ECC497, #796A8B);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .bartendu2{
-    background: linear-gradient(#2E64FE, #F781BE);
+    background: linear-gradient(#ECC497, #796A8B);
 }
 .carousel-item.active,
 .carousel-item-next,

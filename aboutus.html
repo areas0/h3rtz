@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>H3rtz.stdio - About us</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="files/css/custom.css">
+    <link rel="icon" type="image/png/svg" href="files/img/CosmopolitainsLogoNoBackgroundNoText.svg">
+    <script>
+      function toggleImage() {
+         var img2 = "https://areas0.github.io/website/files/img/973.png";
+         var img1 = "https://thumbs.gfycat.com/AdeptPhonyKomododragon-size_restricted.gif";
+         var img3 = "https://gifimage.net/wp-content/uploads/2017/09/ash-greninja-gif-8.gif"
+         var imgElement = document.getElementById('toggleImage');
+         if (imgElement.src == img2){
+           imgElement.src = img1
+           imgElement.style.width = "50vh"
+           imgElement.style.height = "50vh"
+         }
+         else if (imgElement.src == img1){
+           imgElement.src = img3
+           imgElement.style.width = "50vh"
+           imgElement.style.height = "50vh"
+         }
+         else{
+           imgElement.src = img2;
+           imgElement.style.width = "50vh"
+           imgElement.style.height = "50vh"
+         }
+      }
+    </script>
+</head>
+<body>
+  <div style="min-height: 90vh">
+    <header>
+        <div class="container-fluid text-center bg-dark text-white top" style="margin-bottom:0">
+            <h1 class="linear">About</h1>
+            <p>Discover H3rtz.stdio and its team</p> 
+          </div>
+          <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <a class="navbar-brand linear" href="index.html">H3rtz.stdio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav active">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="download.html">Download</a>
+                </li>
+                <!--<li class="nav-item">
+                  <a class="nav-link" href="features.html">Features</a>
+                </li>-->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    General Info
+                  </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <!--<a class="dropdown-item" href="features.html">Features</a>-->
+                  <a class="dropdown-item" href="project.html">Tasks & Issues</a>
+                  <a class="dropdown-item" href="credits.html">Credits</a>
+                </div>
+                <li class="nav-item">
+                  <a class="nav-link" href="aboutus.html">About us</a>
+                </li>    
+              </ul>
+            </div>  
+          </nav>
+    </header>
+    <main>
+      <div class="container rounded text-white bg-dark" style="margin-top: 1vh;">
+        <br>
+        <h1>The group</h1>
+        <hr>
+        <div class="row">
+          <div class="col">
+            <p style="vertical-align: middle;">H3rtz.stdio is a group created @EPITA for the project of S4. Its name comes from an obvious reference to music and a silly C joke.</p>
+          </div>
+          <div class="col" style="min-height: 25%;min-width: 25%;max-width: 50%;max-height: 50%;">
+            <center><img src="#" class="img-fluid rounded" width="180px" height="180px"></center>
+          </div>
+        </div>
+        <h3>Discover the team</h3>
+        <hr style="margin-bottom: 0;">
+      </div>
+          <div id="carouselContent" class="carousel slide" data-ride="carousel" style="margin-top: 0;">
+              <div class="carousel-inner" role="listbox">
+                  <div class="carousel-item active text-center">
+                    <div class="container text-white bg-dark" style="min-height: 40vh;">
+                        <br>
+                        <center><img src="files/img/973.png" class="rounded bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" id="toggleImage" onclick="toggleImage();" width="100vh" height="100vh"></center>
+                        <h2 style="margin-top: 15px;">Jean "Areas" Bou Raad</h2>
+                        <button type="button" class="btn btn-outline-info">Dev lead</button>
+                        <p>Computer science has always been a passion for me even before EPITA. I have learned by myself a little bit of some programming languages and got the opportunity to work with a small team for server software development in C# and node-JavaScript (known as node-js). I got in touch with various developers and discovered the world of software development with them. </p>
+                        <p>I am leading audio codec development on this project.</p>
+                        <h5>Contact: <a href="mailto: jean.bou-raad@epita.fr"><img src="files/img/email-24px.svg" width="7%" height="7%"></a> | Discord: Areas#7040</h5>
+                      </div>
+                  </div>
+
+                  <div class="carousel-item text-center align-content-center">
+                    <div class="container text-white bg-dark" style="min-height: 40vh;">
+                      <br>
+                      <center><img src="#" class="rounded bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="100vh" height="100vh"></center>
+                      <h2 style="margin-top: 15px;">Yabsira Alemayehu MULAT</h2>
+                      <button type="button" class="btn btn-outline-success">Graphic&GUI</button>
+                      <p style="margin-top: 10px;">After 1 year and half experience of learning computer science, there is nothing exciting like working in a group project. Learning computer science was not my first choice but once I joined, I started appreciating the subject a lot. This kind of projects makes it even more exciting because it gives me the opportunity to work with different amazing coworkers and learn many new things.</p>
+                      <p>Out of all the languages that I learned so far C is kind of difficult for me because it is not something that I had experienced before. But I am sure that this project will make me work hard and learn the language to the fullest.</p>
+                      <h5>Contact: <a href="mailto: yabsira-alemayehu.mulat@epita.fr"><img src="files/img/email-24px.svg" width="7%" height="7%"></a></h5>
+                  </div>
+                </div>
+                <div class="carousel-item text-center align-content-center">
+                  <div class="container text-white bg-dark" style="min-height: 40vh;">
+                    <br>
+                    <center><img src="#" class="align-self-center rounded bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="100vh" height="100vh"></center>
+                    <h2>Thanh Lam NGUYEN</h2>
+                    <button type="button" class="btn btn-outline-danger">Graphic&GUI</button>
+                    <p>    For this semester the first thing I wanted is to be in a motivated group. Done. Now we chose our subject, I am excited to learn something new ! About something  I never thought I will work on signals, audio player. I feel good with our group project and I am confident to say that this project will be a good experience too!</p>
+                    <h5>Contact: <a href="mailto: thanh-lam.nguyen@epita.fr"><img src="files/img/email-24px.svg" width="7%" height="7%"></a></h5>
+                </div>
+              </div>
+              <div class="carousel-item text-center align-content-center">
+                <div class="container text-white bg-dark" style="min-height: 40vh;">
+                  <br>
+                  <center><img src="#" class="rounded bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="100vh" height="100vh"></center>
+                  <h2>Kevin-Brian N'DIAYE</h2>
+                  <button type="button" class="btn btn-outline-success">Team leader</button>
+                  <p style="margin-top: 10px;">I started learning about computer science at 14 with basic projects such as Unity or web development. However, these didn't pick my interest until I learned about machine learning and robotics in 10<sup>th</sup> grade and its limitless potential.
+                    Audio seemed like an small yet, deep topic I feel ready to get into.</p>
+                  <p>Jean's excitement about the project easily got to me and I can't wait to see how it goes.</p>
+                  <h5>Contact: <a href="mailto: kevin-brian.n-diaye@epita.fr"><img src="files/img/email-24px.svg" width="7%" height="7%"></a></h5>
+              </div>
+            </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselContent" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselContent" role="button" data-slide="next" style="vertical-align: middle;">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+              </a>
+          </div>
+      </div>
+    </main>
+    <div class="jumbotron bg-dark text-white" style="margin-bottom:0;margin-top: 50px;width:100%;bottom:0;left:0;position: relative;">
+      <div class="row">
+        <div class="col-lg-5">
+          <p style="margin-bottom: 0;">Made with ❤ by Areas</p>
+          <h6>©H3rtz.stdio <img src="files/img/CosmopolitainsLogoNoBackgroundNoText.svg" width="25px" height="25px"></h6>
+          <p>v1.2.0</p>
+        </div>
+        <div class="col align-self-start text-right" style="margin-top: 0;">
+          <a href="https://github.com/areas0/"><img src="files/img/git.png" width="50" height="50"></a>
+          <br>
+          <a href="https://www.epita.fr/"><img src="https://upload.wikimedia.org/wikipedia/fr/d/d8/Epita.png" width="5%" height="5%" style="margin-top: 8px;"></a>
+        </div>
+      </div>      
+    </div>
+  </body> 
+</html>
